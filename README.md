@@ -1,10 +1,30 @@
 # Snake_game
-# GAME RULES AND PROPERTIES
- # In this basic snake game, there is a 30 * 30 pixels monster vector and 30 * 30 pixels money vector. Moreover, screen is 750 * 600.
- # Initial monster coordinates are half of height and width of screen.
- # Initial money coordinates must be determined by random numbers within appropriate area of screen.(Out of score board, and in screen)
- # Background music, which is named background.mp3 in files, must be played all the time till game is closed.
- # There must exist a score board at the top of screen with 64 pixels writing font. 
- # When monster coordinates and money coordinates are matched, the score must be increased 1 point and new money coordinates must be determined.
- # When monster coordinates and money coordinates are matched, eating effect sound must be played for a few seconds.
- # When monster coordinaates are top points, the game must be started from beginning with 0 score and new coordinates. Moreover, there is a game over music for that operation, and it must be played for a few seconds.
+Welcome to the Snake Game repository! This is a basic implementation of the classic Snake Game using Python and Pygame. Below, you'll find information on the game rules, properties, and how to set up and play the game.
+
+Game Rules and Properties
+Monster and Money Vectors:
+
+There is a 30x30 pixels monster vector and a 30x30 pixels money vector.
+Initial monster coordinates are set to half of the height and width of the screen.
+Initial money coordinates are randomly generated within the appropriate area of the screen, excluding the score board.
+Screen Size:
+
+The game screen has a size of 750x600 pixels.
+Background Music:
+
+The background music, named background.mp3, plays continuously until the game is closed.
+Score Board:
+
+A score board is located at the top of the screen with a 64-pixel font size.
+Game Interaction:
+
+When the monster coordinates and money coordinates match:
+The score increases by 1 point.
+New money coordinates are randomly determined.
+An eating effect sound plays for a few seconds.
+Game Restart:
+
+If the monster coordinates reach the top of the screen:
+The game restarts from the beginning with a score of 0.
+New monster and money coordinates are set.
+A game over music plays for a few seconds.
