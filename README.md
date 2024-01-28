@@ -1,5 +1,5 @@
 # Snake_game
-# In this basic snake game, there is a 30*30 pixels monster vector and 30*30 pixels money vector. Moreover, screen is 750*600.
+# In this basic snake game, there is a 30 * 30 pixels monster vector and 30 * 30 pixels money vector. Moreover, screen is 750 * 600.
 # GAME RULES AND PROPERTIES
 # *Initial monster coordinates are half of height and width of screen.
 # *Initial money coordinates must be determined by random numbers within appropriate area of screen.(Out of score board, and in screen)
