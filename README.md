@@ -16,14 +16,12 @@ Background Music:
 Score Board:
 * A score board is located at the top of the screen with a 64-pixel font size.
   
-Game Interaction:
-(When the monster coordinates and money coordinates match:)
+Game Interaction(When the monster coordinates and money coordinates match):
 * The score increases by 1 point.
 * New money coordinates are randomly determined.
 * An eating effect sound plays for a few seconds.
   
-Game Restart:
- If the monster coordinates reach the edge of the screen:
+Game Restart( If the monster coordinates reach the edge of the screen):
 * The game restarts from the beginning with a score of 0.
 * New monster and money coordinates are set.
 * A game over music plays for a few seconds.
