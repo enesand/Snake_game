@@ -30,6 +30,7 @@ game_over_sound=pygame.mixer.Sound("game_over.mp3")
 speed=5
 FPS=30
 inital_time=pygame.time.Clock()
+
 #Game
 score = 0
 def game_over():
@@ -37,6 +38,7 @@ def game_over():
     game_over_sound.play()
     score = 0
     monster_coordinate.topleft = (375, 300)
+    pygame.time.wait(150)
 while game_on:
     for i in pygame.event.get():
         if i.type == pygame.QUIT:
