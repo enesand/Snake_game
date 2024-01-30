@@ -10,14 +10,14 @@ Monster and Money Vectors:
 Screen Size:
 * The game screen has a size of 750x600 pixels.
   
-* Background Music:
+Background Music:
 * The background music, named background.mp3, plays continuously until the game is closed.
   
 Score Board:
 * A score board is located at the top of the screen with a 64-pixel font size.
   
 Game Interaction:
- When the monster coordinates and money coordinates match:
+(When the monster coordinates and money coordinates match:)
 * The score increases by 1 point.
 * New money coordinates are randomly determined.
 * An eating effect sound plays for a few seconds.
